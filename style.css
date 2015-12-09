@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'DigitalSansEF-Bold';
+  src: url('fonts/DigitalSansEF-Bold.ttf');
+  font-weight: bold;
+}
+
+
+body,
+html{
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+body {
+  background: #fff url('images/background.png') 0 0 repeat-x;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+p {
+  color: #fff;
+  font-weight: 400;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 25px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background: url('images/img.png');
+  background-size: 1200px 1233px;
+  height: 1233px;
+  position: relative;
+}
+
+.container .content {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: right; 
+  padding: 60px 86px; 
+}
+
+.container .content h1 {
+  font-family: 'DigitalSansEF-Bold';
+  font-size: 60px;
+}
+
+.container .content .three-columns {
+  display: inline-block;
+}
+
+.container .content .three-columns .item{
+  float: left;
+}
+.container .content .three-columns .middle{
+  margin: 0 80px;
+}
+.container .content .three-columns .item h2{
+  margin: 0; 
+}
+.container .content .three-columns .item .title{
+  font-weight: 700;
+}
+
+.footer p {
+  color: #000;
+  text-align: center;
+}
+
+.footer a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
