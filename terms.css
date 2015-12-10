@@ -27,7 +27,7 @@ p {
   font-weight: 400;
 }
 h1 {
-  font-size: 60px;
+  font-size: 55px;
 }
 h2 {
   font-size: 35px;
@@ -37,7 +37,7 @@ h3 {
 }
 .container {
   width: 1200px;
-  height: 3500px;
+  height: 3400px;
   margin: 0 auto;
   background: rgb(41, 170, 223) url('images/term-img.png') no-repeat;
   background-size: 1200px 4378px;
@@ -46,7 +46,7 @@ h3 {
 
 .container .content {
   position: absolute;
-  top: 800px; 
+  top: 670px; 
   right: 0;
   bottom: 0;
   text-align: right; 
